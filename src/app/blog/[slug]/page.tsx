@@ -2,6 +2,7 @@ import fs from "fs";
 import path from "path";
 import { marked } from "marked";
 import matter from "gray-matter";
+import Image from "next/image";
 
 // ۱. اضافه کردن این تابع برای تغییر عنوان تب مرورگر
 export async function generateMetadata({
@@ -59,6 +60,7 @@ export default async function BlogPost({
         <div className="text-gray-400 text-sm">
           نوشته شده توسط {data.author} در تاریخ {data.date}
         </div>
+        <Image src="/images/nextjs.png" alt="توضیح عکس" width={500} height={300} />
       </header>
 
       <article

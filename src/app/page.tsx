@@ -3,6 +3,7 @@ import { getSortedPostsData } from "@/lib/post";
 import Link from "next/link";
 // import BlogList from "./blog/page";
 
+
 export default function Home() {
   const allPostsData = getSortedPostsData();
 
