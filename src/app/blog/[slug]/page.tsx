@@ -62,7 +62,7 @@ export default async function BlogPost({
       </header>
 
       <article
-        className="prose lg:prose-xl max-w-none text-right"
+        className="prose lg:prose-xl max-w-none text-right dir-rtl"
         dangerouslySetInnerHTML={{ __html: htmlContent }}
       />
 

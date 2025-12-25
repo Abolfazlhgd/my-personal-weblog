@@ -31,7 +31,7 @@ export default function BlogList() {
             <p className="text-gray-500 mt-2">{post.excerpt}</p>
             <div className="flex justify-between items-center mt-4">
               <span className="text-sm text-gray-400">{post.date}</span>
-              <span className="text-blue-500">ادامه مطلب ←</span>
+              <span className="text-blue-500"> ادامه مطلب ←</span>
             </div>
           </Link>
         ))}
